@@ -1,0 +1,73 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Docs - A11yForgeIT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="brand">
+    <svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
+<title id="logoTitle">A11yForgeIT</title>
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#4b3ce2"/>
+    <stop offset="100%" stop-color="#1da1f2"/>
+  </linearGradient>
+</defs>
+<rect width="160" height="40" rx="6" fill="transparent"/>
+<text x="0" y="28" font-family="Inter, Arial, sans-serif" font-size="24" fill="url(#g1)" font-weight="700">A11yForgeIT</text>
+</svg>
+
+  </div>
+  <nav role="navigation" aria-label="Main navigation" class="main-nav">
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="faq.html">FAQ</a>
+  </nav>
+</header>
+
+    <main id="main" class="container">
+    <h1>Docs</h1><h2>Getting Started</h2><ol><li>Download or clone the repo.</li><li>Open <code>index.html</code> in your browser or run <code>python -m http.server</code>.</li><li>Edit files in <code>/pages</code> and customize <code>/css/style.css</code>.</li></ol><h2>Branding</h2><p>Replace the inline SVG logo in header/footer or edit CSS variables.</p>
+    </main>
+    <footer class="site-footer" role="contentinfo">
+  <div class="footer-brand"><svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
+<title id="logoTitle">A11yForgeIT</title>
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#4b3ce2"/>
+    <stop offset="100%" stop-color="#1da1f2"/>
+  </linearGradient>
+</defs>
+<rect width="160" height="40" rx="6" fill="transparent"/>
+<text x="0" y="28" font-family="Inter, Arial, sans-serif" font-size="24" fill="url(#g1)" font-weight="700">A11yForgeIT</text>
+</svg>
+</div>
+  <nav aria-label="Footer" class="footer-nav">
+    <a href="docs.html">Docs</a> |
+    <a href="accessibility.html">Accessibility</a> |
+    <a href="terms.html">Terms</a> |
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <p>© 2025 A11yForgeIT. All rights reserved.</p>
+</footer>
+
+    <button id="a11y-btn" class="a11y-btn" aria-haspopup="true" aria-controls="a11y-panel" aria-expanded="false" title="Accessibility options">♿</button>
+<div id="a11y-panel" class="a11y-panel" hidden aria-hidden="true">
+  <h2>Accessibility options</h2>
+  <div class="a11y-controls">
+    <button data-action="toggle-theme">Toggle dark</button>
+    <button data-action="increase-font">A+</button>
+    <button data-action="decrease-font">A-</button>
+    <button data-action="toggle-contrast">High contrast</button>
+  </div>
+</div>
+<script src="../js/main.js"></script>
+
+    </body>
+    </html>
